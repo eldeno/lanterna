@@ -45,6 +45,8 @@ const checarBateria = () => {
     if (btnLigaDesliga.classList.contains('ligado')) {
       batteryDisplay.style.color= 'red';
     }
+  } else {
+    batteryDisplay.style.color= 'white';
   }
 }
 
