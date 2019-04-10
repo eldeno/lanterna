@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: black;
+  height: 100vh;
+}
+
+.header {
+  padding: 10px;
+  background-color: green;
+  color: white;
+}
+
+.bateria {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+  margin: 0 auto;
+}
+
+
+.lanterna {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.corpo-da-lanterna {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 100px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  background-color: gray;
+}
+
+.corpo-da-lanterna button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
+
+.corpo-da-lanterna button:hover {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  margin-top: 12px;
+}
+
+.corpo-da-lanterna button:active {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.5);
+  margin-top: 14px;
+}
+
+.bnt-liga-desliga {
+  background-color: orange;
+}
+
+.btn-trocar-bateria {
+  background-color: red;
+  color: #e0e0e0;
+}
+
+.ligado {
+  background-color: greenyellow;
+}
+
+.top {
+  position: relative;
+
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+
+  border-right: 50px solid darkgrey;
+
+  top: 51px;
+}
+
+.middle {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+
+  border-left: 50px solid darkgrey;
+}
+
+.bottom {
+  position: relative;
+
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+
+  border-right: 50px solid darkgrey;
+
+  top: -51px;
+}
+
+.luz-top {
+  position: relative;
+
+  width: 0;
+  height: 0;
+  border-top: 80px solid transparent;
+  border-bottom: 80px solid transparent;
+
+  border-right: 80px solid yellow;
+
+  top: 81px;
+  opacity: 0;
+}
+
+.luz-middle {
+  width: 0;
+  height: 0;
+  border-top: 80px solid transparent;
+  border-bottom: 80px solid transparent;
+
+  border-left: 80px solid yellow;
+
+  opacity: 0;
+}
+
+.luz-bottom {
+  position: relative;
+
+  width: 0;
+  height: 0;
+  border-top: 80px solid transparent;
+  border-bottom: 80px solid transparent;
+
+  border-right: 80px solid yellow;
+
+  top: -81px;
+
+  opacity: 0;
+}
