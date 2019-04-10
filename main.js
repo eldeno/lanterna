@@ -1,5 +1,5 @@
 // Variáveis Globais
-let medidor = 10;
+let medidor = 100;
 
 // DOM Elements
 const btnLigaDesliga = document.querySelector('.btn-liga-desliga');
