@@ -63,6 +63,9 @@ const trocarBateria = () => {
       medidor = 100;
     }
     medidorUI.innerHTML = medidor  + ' %';
+    luzTop.style.opacity = 1;
+    luzMiddle.style.opacity = 1;
+    luzBottom.style.opacity = 1;
   });  
 }
 
